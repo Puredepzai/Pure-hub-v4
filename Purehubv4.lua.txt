@@ -456,7 +456,12 @@ local Root = HumanoidRootPart
 -- ==========================================
 -- LOAD UI LIBRARY (HDanh Hub)
 -- ==========================================
-  Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/Aihoicailoncacchobuoiwisibchcj/refs/heads/main/Ditmemayluccailoncacymafluc"))()
+  Library = loadstring(game:HttpGet("...Ditmemayluccailoncacymafluc"))()
+Window = Library:CreateWindow({
+    Title = "benz Hub",
+    Desc = "- Blox Fruit",
+    Image = "rbxassetid://83109821876237"
+})
 
 Window = Library:CreateWindow({
     Title = "PURE hub",
