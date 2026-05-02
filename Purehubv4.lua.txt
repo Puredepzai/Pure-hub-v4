@@ -460,7 +460,9 @@ local Root = HumanoidRootPart
 Window = Library:CreateWindow({
     Title = "PURE hub",
     Desc = "- made by pure",
-    Image = "https://i.ibb.co/Y7V0WQy0/IMG-0902.jpg",
+    Image = "https://i.ibb.co/Y7V0WQy0/IMG-0902.jpg"
+})
+--
 -- ==========================================
 -- TẠO CÁC TABS (ĐÚNG API: AddTab nhận string)
 -- ==========================================
@@ -1489,7 +1491,7 @@ function CheckBossQuest()
                                 if SelectBoss ~= "Saber Expert" then
                                     if SelectBoss ~= "Warden" then
                                         if SelectBoss ~= "Chief Warden" then
-                                            if if SelectBoss ~= "Swan" then
+                                            if SelectBoss ~= "Swan" then
                                                 if SelectBoss ~= "Magma Admiral" then
                                                     if SelectBoss ~= "Fishman Lord" then
                                                         if SelectBoss ~= "Wysper" then
