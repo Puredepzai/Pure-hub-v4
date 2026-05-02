@@ -469,7 +469,6 @@ Window = Library:CreateWindow({
     Image = "https://i.ibb.co/Y7V0WQy0/IMG-0902.jpg",
     Color = Color3.fromRGB(255, 255, 255)
 })
-
 -- ==========================================
 -- TẠO CÁC TABS (ĐÚNG API: AddTab nhận string)
 -- ==========================================
