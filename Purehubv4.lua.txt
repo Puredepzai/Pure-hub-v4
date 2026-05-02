@@ -456,7 +456,7 @@ local Root = HumanoidRootPart
 -- ==========================================
 -- LOAD UI LIBRARY (HDanh Hub)
 -- ==========================================
-  Library = loadstring(game:HttpGet("...link UI library..."))()
+  Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/Aihoicailoncacchobuoiwisibchcj/refs/heads/main/Ditmemayluccailoncacymafluc"))()
 Window = Library:CreateWindow({
     Title = "PURE hub",
     Desc = "- made by pure",
