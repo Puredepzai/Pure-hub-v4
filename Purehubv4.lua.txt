@@ -456,14 +456,8 @@ local Root = HumanoidRootPart
 -- ==========================================
 -- LOAD UI LIBRARY (HDanh Hub)
 -- ==========================================
-  Library = loadstring(game:HttpGet("...Ditmemayluccailoncacymafluc"))()
-Window = Library:CreateWindow({
-    Title = "benz Hub",
-    Desc = "- Blox Fruit",
-    Image = "rbxassetid://83109821876237"
-})
-
-Window = Library:CreateWindow({
+  Library = 
+    Window = Library:CreateWindow({
     Title = "PURE hub",
     Desc = "- made by pure",
     Image = "https://i.ibb.co/Y7V0WQy0/IMG-0902.jpg",
@@ -1490,12 +1484,12 @@ function CheckBossQuest()
             if SelectBoss ~= "Bobby" then
                 if SelectBoss ~= "The Saw" then
                     if SelectBoss ~= "Yeti" then
-                        if SelectBoss ~= "Mob Leader" then
+                        if SelectBoss ~= "Mob "Leader" then
                             if SelectBoss ~= "Vice Admiral" then
                                 if SelectBoss ~= "Saber Expert" then
                                     if SelectBoss ~= "Warden" then
                                         if SelectBoss ~= "Chief Warden" then
-                                            if SelectBoss ~= "Swan" then
+                                            if if SelectBoss ~= "Swan" then
                                                 if SelectBoss ~= "Magma Admiral" then
                                                     if SelectBoss ~= "Fishman Lord" then
                                                         if SelectBoss ~= "Wysper" then
