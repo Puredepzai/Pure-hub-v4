@@ -456,8 +456,8 @@ local Root = HumanoidRootPart
 -- ==========================================
 -- LOAD UI LIBRARY (HDanh Hub)
 -- ==========================================
-  Library = 
-    Window = Library:CreateWindow({
+  Library = loadstring(game:HttpGet("...link UI library..."))()
+Window = Library:CreateWindow({
     Title = "PURE hub",
     Desc = "- made by pure",
     Image = "https://i.ibb.co/Y7V0WQy0/IMG-0902.jpg",
@@ -1484,7 +1484,7 @@ function CheckBossQuest()
             if SelectBoss ~= "Bobby" then
                 if SelectBoss ~= "The Saw" then
                     if SelectBoss ~= "Yeti" then
-                        if SelectBoss ~= "Mob "Leader" then
+                        if SelectBoss ~= "Mob Leader" then
                             if SelectBoss ~= "Vice Admiral" then
                                 if SelectBoss ~= "Saber Expert" then
                                     if SelectBoss ~= "Warden" then
